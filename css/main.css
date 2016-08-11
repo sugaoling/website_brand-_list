@@ -1,0 +1,71 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style-type: none;
+}
+body{
+    font-size: 12px;
+    text-align: center;
+}
+a{
+    color: #0044dd;
+    text-decoration: none;
+}
+a:hover{
+    color: #F50;
+    text-decoration: underline;
+}
+.SubCategoryBox{
+    width: 600px;
+    margin: 50px auto;
+    /*border: #FF5500 solid 1px;*/
+    text-align: center;
+}
+.SubCategoryBox ul li{
+    float: left;
+    width: 200px;
+    display: block;
+    line-height: 20px;
+}
+.list{
+    margin-bottom: 20px;
+}
+.showMore{
+    clear: both;//在左右两侧均不允许浮动元素。
+    padding-top:20px;
+    margin-bottom: 10px;
+}
+.showMore a{
+    display: block;
+    width: 120px;
+    border: #cccccc solid 1px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.showMore a span{
+    background: url("../image/down.gif") left center no-repeat;
+    padding-left: 15px;
+}
+.promoted a{
+    color: deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
